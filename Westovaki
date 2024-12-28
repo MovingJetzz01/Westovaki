@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naufal Sigma</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+            color: #333;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            animation: fadeIn 3s infinite alternate;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2em;
+            background: #ff758c;
+            padding: 10px 20px;
+            border-radius: 25px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            animation: bounce 2s infinite;
+        }
+
+        a:hover {
+            background: #ff7eb3;
+            text-decoration: underline;
+        }
+
+        .flag {
+            width: 300px;
+            height: 200px;
+            background: url('https://tampvan.miraheze.org/w/images/thumb/c/c1/Flag_Westovakia.jpg/300px-Flag_Westovakia.jpg') no-repeat center center;
+            background-size: cover;
+            animation: wave 2s infinite ease-in-out;
+            margin-bottom: 20px;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0.5;
+                transform: scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1.1);
+            }
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        @keyframes wave {
+            0% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(1deg) translateY(-2px);
+            }
+            50% {
+                transform: rotate(0deg);
+            }
+            75% {
+                transform: rotate(-1deg) translateY(2px);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flag"></div>
+    <h1>Naufal Sigma bngets woilah😹😹</h1>
+    <a href="https://tampvan.miraheze.org/wiki/Federal_Republic_of_Westovakia" target="_blank">Federal Republic of Westovakia</a>
+</body>
+</html>
